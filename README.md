@@ -1,2 +1,1 @@
-# weather-extension
-API based extension
+# weather-forecast-api-ui

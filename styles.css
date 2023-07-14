@@ -1,0 +1,196 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  color: black; /* Updated font color */
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button#get-weather-button {
+  background: linear-gradient(45deg, #4CAF50, #388E3C); /* Updated gradient */
+  transition: background-color 0.3s;
+}
+
+button#get-forecast-button {
+  background: linear-gradient(45deg, #FFEB3B, #FBC02D); /* Updated gradient */
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+#weather-details {
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.weather-details-container {
+  display: flex;
+  align-items: center;
+  background-color: white !important;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #000;
+}
+
+.weather-description {
+  margin-left: 10px;
+}
+
+.temperature {
+  font-size: 24px;
+  color: #f44336;
+}
+
+.humidity-icon,
+.wind-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.humidity {
+  color: #2196F3;
+  font-weight: bold;
+}
+
+.wind-speed {
+  color: #FF9800;
+  font-weight: bold;
+}
+
+#get-weather-button {
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+#get-weather-button:hover {
+  background-color: #444;
+}
+
+#weather-details {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.weather-info {
+  margin-bottom: 10px;
+}
+
+.weather-info h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.weather-info p {
+  margin-bottom: 5px;
+}
+
+.weather-details-container div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weather-details-container div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weather-details-container img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.temperature .temperature-icon,
+.humidity .humidity-icon,
+.description .description-icon,
+.wind-speed .wind-icon {
+  margin-right: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.forecast-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255); /* Updated table background color */
+}
+
+.forecast-table th {
+  background-color: rgb(250, 251, 251);
+  color: black;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.forecast-table td {
+  background-color: rgb(18, 235, 188);
+  color: black;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.forecast-table tr:nth-child(even) td {
+  background-color: #e7ee5c;
+}
+
+.forecast-table tr:last-child td {
+  border-bottom: none;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slideIn {
+  animation: slideIn 0.5s ease-in-out;
+}
+
