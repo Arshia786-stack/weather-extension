@@ -16,7 +16,7 @@
 // });
 
 // function getWeather(cityName) {
-//   var url = 'https://api.openweathermap.org/data/2.5/weather?q=' + encodeURIComponent(cityName) + '&appid=b3b55ce55465d53b0361293bdd77af4e&units=metric';
+//   var url = 'https://api.openweathermap.org/data/2.5/weather?q=' + encodeURIComponent(cityName) + '&appid=(api)&units=metric';
 
 //   fetch(url)
 //     .then(function(response) {
@@ -31,7 +31,7 @@
 // }
 
 // function getForecast(cityName) {
-//   var url = 'https://api.openweathermap.org/data/2.5/forecast?q=' + encodeURIComponent(cityName) + '&appid=b3b55ce55465d53b0361293bdd77af4e&units=metric';
+//   var url = 'https://api.openweathermap.org/data/2.5/forecast?q=' + encodeURIComponent(cityName) + '&appid=(api)&units=metric';
 
 //   fetch(url)
 //     .then(function(response) {
