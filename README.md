@@ -40,6 +40,8 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements f
 ## API Key
 
 To use this extension, you need to obtain an API key from OpenWeatherMap and replace the `appid` parameter in the API URLs in `popup.js` with your own API key.
+                                                       
+                                                        Made with ❤️ by Arshia Mubias Shaik
 
 For example: Make sure to replace YOUR_API_KEY with your actual API key provided by OpenWeatherMap.
 
